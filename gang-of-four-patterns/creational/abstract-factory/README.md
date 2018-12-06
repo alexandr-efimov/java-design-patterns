@@ -20,12 +20,3 @@ represented.
 to enforce this constraint.
 - you want to provide a class library of products, and you want to reveal just their
 interfaces, not their implementations. 
-
-## Consequences
-The Abstract Factory pattern has the following benefits and liabilities:
-- It isolates concrete classes. 
-- It makes exchanging product families easy. 
-- It promotes consistency among products. 
-- Supporting new kinds of products is difficult(CONS). Extending abstract factories to
-produce new kinds of Products isn't easy. That's because the AbstractFactory
-interface fixes the set of products that can be created.
