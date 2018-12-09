@@ -1,4 +1,4 @@
-package demo;
+package prototype.demo;
 
 import lombok.extern.java.Log;
 import prototype.Robot;
