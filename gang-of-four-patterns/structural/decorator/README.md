@@ -1,4 +1,4 @@
-Bridge
+Decorator
 
 ## Category
 Structural
