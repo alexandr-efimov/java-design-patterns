@@ -6,7 +6,6 @@ import abstractfactory.FactoryProducer;
 import abstractfactory.Shape;
 import lombok.extern.java.Log;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Log
@@ -17,11 +16,11 @@ public class PatternDemo {
         AbstractFactory colorFactory = FactoryProducer.getFactory("COLOR");
 
         log.info("Colors");
-        List<Color> colors = Arrays.asList(colorFactory.getColor("red"), colorFactory.getColor("GREEN"));
+        List<Color> colors = List.of(colorFactory.getColor("red"), colorFactory.getColor("GREEN"));
         colors.forEach(Color::fill);
 
         log.info("Shapes");
-        List<Shape> shapes = Arrays.asList(shapeFactory.getShape("rectangle"), shapeFactory.getShape("circle"));
+        List<Shape> shapes = List.of(shapeFactory.getShape("rectangle"), shapeFactory.getShape("circle"));
         shapes.forEach(Shape::draw);
     }
 }
