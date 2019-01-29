@@ -19,5 +19,6 @@
         <module>observer</module>
         <module>memento</module>
         <module>mediator</module>
+        <module>iterator</module>
     </modules>
 </project>
