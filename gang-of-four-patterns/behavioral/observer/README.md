@@ -1,7 +1,7 @@
-Strategy
+Observer
 
 ## Category
-Observer
+Behavioral
 
 ## Intent & Motivation
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are 
