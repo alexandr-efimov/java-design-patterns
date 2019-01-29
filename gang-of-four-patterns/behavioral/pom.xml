@@ -20,5 +20,6 @@
         <module>memento</module>
         <module>mediator</module>
         <module>iterator</module>
+        <module>interpreter</module>
     </modules>
 </project>
