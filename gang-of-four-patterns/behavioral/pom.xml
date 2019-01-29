@@ -22,5 +22,6 @@
         <module>iterator</module>
         <module>interpreter</module>
         <module>command</module>
+        <module>chainofresponsibility</module>
     </modules>
 </project>
