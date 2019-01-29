@@ -21,5 +21,6 @@
         <module>mediator</module>
         <module>iterator</module>
         <module>interpreter</module>
+        <module>command</module>
     </modules>
 </project>
